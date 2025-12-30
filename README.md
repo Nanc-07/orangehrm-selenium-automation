@@ -1,85 +1,54 @@
-OrangeHRM Selenium Automation Project
-Project Overview
+# OrangeHRM Selenium Automation Project
 
-This project automates key functionalities of the OrangeHRM web application using Selenium WebDriver with Java.
-The framework follows the Page Object Model (POM) design pattern to ensure reusability, maintainability, and scalability of test scripts.
+## Project Overview
+This project automates key functionalities of the OrangeHRM web application using Selenium WebDriver with Java.  
+The framework follows the Page Object Model (POM) design pattern to ensure reusability, maintainability, and scalability.
 
-Application Under Test
-
+## Application Under Test
 🔗 https://opensource-demo.orangehrmlive.com/
 
-Features Automated
+## Features Automated
+- Login (Valid & Invalid Scenarios)
+- Dashboard Navigation
+- Employee Form (Add Employee)
+- Logout
 
-Login (Valid & Invalid Scenarios)
+## Framework Details
+- Page Object Model (POM)
+- Maven Project Structure
+- TestNG for test execution
+- Explicit waits for synchronization
 
-Dashboard Navigation
+## Test Scenarios Covered
+- Valid Login Test
+- Invalid Login Test
+- Add Employee Form Test
+- Logout Test
 
-Employee Form (Add Employee)
+## Tools & Technologies Used
+- Java
+- Selenium WebDriver
+- TestNG
+- Maven
+- Git & GitHub
+- Eclipse IDE
+- Chrome Browser
 
-Logout
+## Test Reports
+- TestNG HTML Reports
+- Emailable TestNG Report
 
-Framework Details
+## Project Structure
+- `base` – WebDriver setup and teardown  
+- `pages` – Page Object classes  
+- `tests` – TestNG test classes  
+- `testng.xml` – Test suite configuration  
 
-Page Object Model (POM)
+## How to Run the Tests
+1. Clone the repository
+2. Import the project as a Maven project in Eclipse
+3. Update Maven dependencies
+4. Run `testng.xml` or test classes using **Run As → TestNG Test**
 
-Maven Project Structure
-
-TestNG for test execution
-
-Explicit waits for synchronization
-
-Test Scenarios Covered
-
-Valid Login Test
-
-Invalid Login Test
-
-Add Employee Form Test
-
-Logout Test
-
-Tools & Technologies Used
-
-Java
-
-Selenium WebDriver
-
-TestNG
-
-Maven
-
-Git & GitHub
-
-Eclipse IDE
-
-Chrome Browser
-
-Test Reports
-
-TestNG HTML Reports
-
-Emailable TestNG Report
-
-Project Structure
-
-base – WebDriver setup and teardown
-
-pages – Page Object classes
-
-tests – TestNG test classes
-
-testng.xml – Test suite configuration
-
-How to Run the Tests
-
-Clone the repository
-
-Import project as Maven project in Eclipse
-
-Update Maven dependencies
-
-Run testng.xml or test classes using Run As → TestNG Test
-
-Author
-
-Nancy
+## Author
+**Nancy**
